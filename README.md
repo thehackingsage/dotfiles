@@ -12,3 +12,6 @@
 - htop : `sudo apt install htop`
 - bashtop : `sudo snap install bashtop`
 - neofetch : `sudo apt install neofetch`
+- fortune : `sudo apt install fortune`
+- cowsay : `sudo apt install cowsay`
+- cmatrix : `sudo apt install cmatrix`
