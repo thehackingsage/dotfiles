@@ -6,6 +6,7 @@
 - zsh-autosuggestions : `sudo apt install zsh-autosuggestions`
 - zsh-syntax-highlighting : `sudo apt install zsh-syntax-highlighting`
 - powelevel10k : `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+  - then set `ZSH_THEME="powerlevel10k/powerlevel10k"` in `~/.zshrc`.
 - lsd : `sudo snap install lsd`
 - bat : `sudo snap install bat`
 - lolcat : `sudo apt install lolcat`
