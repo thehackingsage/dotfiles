@@ -1,0 +1,2 @@
+# dotfiles
+terminal customization
