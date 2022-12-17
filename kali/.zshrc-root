@@ -83,19 +83,19 @@ IP3=$(ip -4 addr | grep -v 127.0.0.1 | grep -v secondary | grep wlan0 | grep -Po
 
 # Create prompts based on which interfaces are found
 if [ $IP1 ]; then
-	LOCAL="%F{green}─〔🖥️%F{cyan}$IP1%b%F{green}〕"
+	LOCAL="%F{green}─〔🖥️ %F{cyan}$IP1%b%F{green}〕"
 else
 	LOCAL=""
 fi
 
 if [ $IP2 ]; then
-    VPN="%F{green}─〔🔒%F{yellow}$IP2%b%F{green}〕"
+    VPN="%F{green}─〔🔒 %F{yellow}$IP2%b%F{green}〕"
 else
     VPN=""
 fi
 
 if [ $IP3 ]; then
-    WIFI="%F{green}─〔📶%F{red}$IP3%F{green}〕"
+    WIFI="%F{green}─〔📶 %F{red}$IP3%F{green}〕"
 else
     WIFI=""
 fi
